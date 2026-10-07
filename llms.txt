@@ -1,0 +1,55 @@
+# LullCam
+
+> LullCam turns an iPhone or iPad into a private baby monitor: live video and sound, cry and motion alerts, no accounts, no cloud and no recordings. End-to-end encrypted. Made in Spain by Rodrigo Dávila. Available in English, Español, Deutsch, Français, Italiano, Português (Portugal), Português (Brasil), 日本語, 한국어, 简体中文.
+
+- Live video and sound: Several cameras at once, zoom and low-light image enhancement.
+- Cry alerts: Also noise, movement, a covered or moved camera, battery and connection, even with your screen locked.
+- Keep using your iPhone: Picture in Picture and background audio.
+- Talk and lullabies: Talk to your baby, play lullabies and white noise with a timer.
+- Night light: The camera's screen doubles as a soft light in the room.
+- For the whole family: Your partner and guests use it for free.
+- At home, all local: On the same Wi‑Fi, video goes straight from one device to another and never leaves your home.
+- Away, encrypted: Over the internet it's end-to-end encrypted. The server can't see it and doesn't store it.
+- No data: No accounts, analytics, ads or tracking. “Data Not Collected” on the App Store.
+
+## Pricing
+
+Free to download and join a family. LullCam Pro (needed to create a family): €19.99/year with a 3-day free trial, or €49.99 lifetime (prices vary by country). Partner and guests use it free. Apple Family Sharing supported.
+
+## FAQ
+
+### Does LullCam record or store video of my baby?
+No. LullCam never records or stores video, audio or photos. Everything is live and nothing is written to disk.
+
+### Do I need an account?
+No. LullCam has no accounts. Your family's devices pair by scanning a QR code in person.
+
+### Does it work away from home?
+Yes, if you allow it. Over the internet, video and audio are end-to-end encrypted; the connection server can't see them and doesn't store them. On the same Wi‑Fi everything stays local.
+
+### What do I need?
+Two Apple devices: an old iPhone or iPad acts as the camera in the nursery and your iPhone is the parent screen. No camera to buy.
+
+### How much does it cost?
+Downloading to join a family is free. To create your family you need LullCam Pro: €19.99 per year with 3 days free, or €49.99 lifetime. Your partner and guests use it for free.
+
+### Will it alert me if my baby cries while my phone is locked?
+Yes. LullCam alerts you about crying, noise, movement, a covered or moved camera, battery and lost connection, even with the screen locked.
+
+### Is it a medical device?
+No. LullCam is not a medical device and does not replace adult supervision.
+
+## Links
+
+- [App Store](https://apps.apple.com/app/id6820272090)
+- [Privacy policy](https://lullcam.com/privacy/)
+- [English](https://lullcam.com/)
+- [Español](https://lullcam.com/es/)
+- [Deutsch](https://lullcam.com/de/)
+- [Français](https://lullcam.com/fr/)
+- [Italiano](https://lullcam.com/it/)
+- [Português (Portugal)](https://lullcam.com/pt-pt/)
+- [Português (Brasil)](https://lullcam.com/pt-br/)
+- [日本語](https://lullcam.com/ja/)
+- [한국어](https://lullcam.com/ko/)
+- [简体中文](https://lullcam.com/zh-hans/)
