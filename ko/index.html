@@ -129,10 +129,11 @@
 </script>
 </head>
 <body>
-<header>
-  <a class="brand" href="/ko/"><img src="/icon.png" alt="">LullCam</a>
-  <details class="langs"><summary>언어: 한국어</summary>
-    <nav>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="/ko/"><img src="/icon.png" alt="">LullCam</a>
+    <details class="langs"><summary>언어: 한국어</summary>
+      <nav>
       <a href="/" hreflang="en" lang="en">English</a>
       <a href="/es/" hreflang="es" lang="es">Español</a>
       <a href="/de/" hreflang="de" lang="de">Deutsch</a>
@@ -143,60 +144,80 @@
       <a href="/ja/" hreflang="ja" lang="ja">日本語</a>
       <a href="/ko/" hreflang="ko" lang="ko" aria-current="page">한국어</a>
       <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    </nav>
-  </details>
-</header>
-<main>
-  <section class="hero">
-    <img class="icon" src="/icon.png" alt="LullCam 아이콘">
-    <h1>이미 주머니 속에 있는<br>프라이빗 베이비 모니터</h1>
-    <p class="lead">LullCam은 iPhone이나 iPad를 아기 방 카메라로 바꿔 줍니다. 평소처럼 휴대폰을 사용하다가 필요할 때 알려 드립니다.</p>
-    <ul class="tags"><li>계정 없음</li><li>클라우드 없음</li><li>녹화 없음</li><li>종단 간 암호화</li></ul>
-    <a class="button" href="https://apps.apple.com/app/id6820272090">App Store에서 다운로드</a>
-  </section>
-  <div class="shots">
-    <img src="/ko/01-onboarding.jpg" alt="이미 주머니 속에 있는 프라이빗 베이비 모니터" width="414" height="900" loading="lazy">
-    <img src="/ko/03-avisos.jpg" alt="울음 알림" width="414" height="900" loading="lazy">
-    <img src="/ko/04-inicio.jpg" alt="온 가족을 위해" width="414" height="900" loading="lazy">
-  </div>
+      </nav>
+    </details>
+  </header>
+  <main>
+    <section class="hero">
+      <div>
+        <h1>이미 주머니 속에 있는 <em>프라이빗 베이비 모니터</em></h1>
+        <p class="lead">LullCam은 iPhone이나 iPad를 아기 방 카메라로 바꿔 줍니다. 평소처럼 휴대폰을 사용하다가 필요할 때 알려 드립니다.</p>
+        <div class="ctas">
+          <a class="button" href="https://apps.apple.com/app/id6820272090">App Store에서 다운로드</a>
+          <a class="link" href="#price">가격</a>
+        </div>
+        <ul class="promises"><li>계정 없음</li><li>클라우드 없음</li><li>녹화 없음</li><li>종단 간 암호화</li></ul>
+      </div>
+      <div class="scene" aria-hidden="true">
+        <div class="stars"><i style="top:8%;left:12%;animation-delay:0s"></i><i style="top:22%;left:30%;animation-delay:1.2s"></i><i style="top:12%;left:58%;animation-delay:2.1s"></i><i style="top:40%;left:6%;animation-delay:0.6s"></i><i style="top:70%;left:14%;animation-delay:3s"></i><i style="top:62%;left:88%;animation-delay:1.8s"></i><i style="top:86%;left:70%;animation-delay:2.6s"></i><i style="top:34%;left:94%;animation-delay:0.3s"></i></div>
+        <div class="moon"></div>
+        <div class="phone"><img src="/ko/04-inicio.jpg" alt="" width="414" height="900"></div>
+      </div>
+    </section>
 
-  <h2>밤에 필요한 모든 것</h2>
-  <div class="grid">
-    <div class="card"><h3>실시간 영상과 소리</h3><p>여러 대의 카메라를 동시에, 확대와 저조도 화질 개선.</p></div>
-    <div class="card"><h3>울음 알림</h3><p>소음, 움직임, 카메라 가림 또는 이동, 배터리, 연결 알림까지. 화면이 잠겨 있어도 받을 수 있습니다.</p></div>
-    <div class="card"><h3>iPhone은 그대로 사용</h3><p>PIP 모드와 백그라운드 오디오.</p></div>
-    <div class="card"><h3>말하기와 자장가</h3><p>아기에게 말을 걸고, 자장가와 백색 소음을 타이머와 함께 재생하세요.</p></div>
-    <div class="card"><h3>수면등</h3><p>카메라 화면이 방 안의 은은한 조명이 됩니다.</p></div>
-    <div class="card"><h3>온 가족을 위해</h3><p>배우자와 게스트는 무료로 사용합니다.</p></div>
-  </div>
+    <section class="block">
+      <h2>밤에 필요한 모든 것</h2>
+      <div class="bento">
+      <div class="tile t-video"><div><h3>실시간 영상과 소리</h3><p>여러 대의 카메라를 동시에, 확대와 저조도 화질 개선.</p></div><div class="shot"><img src="/ko/01-onboarding.jpg" alt="실시간 영상과 소리" width="414" height="900" loading="lazy"></div></div>
+      <div class="tile t-alert"><div><h3>울음 알림</h3><p>소음, 움직임, 카메라 가림 또는 이동, 배터리, 연결 알림까지. 화면이 잠겨 있어도 받을 수 있습니다.</p></div></div>
+      <div class="tile t-pip"><div><h3>iPhone은 그대로 사용</h3><p>PIP 모드와 백그라운드 오디오.</p></div></div>
+      <div class="tile t-talk"><div><h3>말하기와 자장가</h3><p>아기에게 말을 걸고, 자장가와 백색 소음을 타이머와 함께 재생하세요.</p></div></div>
+      <div class="tile t-light"><div><h3>수면등</h3><p>카메라 화면이 방 안의 은은한 조명이 됩니다.</p></div></div>
+      <div class="tile t-family"><div><h3>온 가족을 위해</h3><p>배우자와 게스트는 무료로 사용합니다.</p></div></div>
+      </div>
+    </section>
 
-  <h2>진짜 프라이버시</h2>
-  <div class="grid">
-    <div class="card"><h3>집에서는 모두 로컬</h3><p>같은 Wi‑Fi에서는 영상이 기기 간에 직접 전달되어 집 밖으로 나가지 않습니다.</p></div>
-    <div class="card"><h3>밖에서는 암호화</h3><p>인터넷으로는 종단 간 암호화됩니다. 서버는 내용을 볼 수 없고 저장하지도 않습니다.</p></div>
-    <div class="card"><h3>데이터 없음</h3><p>계정, 분석, 광고, 추적이 없습니다. App Store 표시: &#x27;데이터가 수집되지 않음&#x27;.</p></div>
-  </div>
+    <section class="block privacy">
+      <h2>진짜 프라이버시</h2>
+      <div class="rows">
+        <div class="row"><h3>집에서는 모두 로컬</h3><p>같은 Wi‑Fi에서는 영상이 기기 간에 직접 전달되어 집 밖으로 나가지 않습니다.</p></div>
+        <div class="row"><h3>밖에서는 암호화</h3><p>인터넷으로는 종단 간 암호화됩니다. 서버는 내용을 볼 수 없고 저장하지도 않습니다.</p></div>
+        <div class="row"><h3>데이터 없음</h3><p>계정, 분석, 광고, 추적이 없습니다. App Store 표시: &#x27;데이터가 수집되지 않음&#x27;.</p></div>
+      </div>
+    </section>
 
-  <h2>가격</h2>
-  <table>
-    <tr><th>가족에 참여</th><td>무료</td></tr>
-    <tr><th>LullCam Pro 연간</th><td>3일 무료, 이후 App Store 연간 가격</td></tr>
-    <tr><th>LullCam Pro 평생</th><td>1회 결제</td></tr>
-  </table>
-  <p>Apple 가족 공유를 지원합니다. 국가별 가격은 App Store에 표시됩니다. 이미 가지고 있는 iPhone이나 iPad를 사용하므로 카메라를 살 필요가 없습니다.</p>
+    <section class="block" id="price">
+      <h2>가격</h2>
+      <div class="plans">
+      <div class="plan"><h3>가족에 참여</h3><p class="value">무료</p></div>
+      <div class="plan featured"><h3>LullCam Pro 연간</h3><p class="value">3일 무료, 이후 App Store 연간 가격</p></div>
+      <div class="plan"><h3>LullCam Pro 평생</h3><p class="value">1회 결제</p></div>
+      </div>
+      <p class="note">Apple 가족 공유를 지원합니다. 국가별 가격은 App Store에 표시됩니다. 이미 가지고 있는 iPhone이나 iPad를 사용하므로 카메라를 살 필요가 없습니다.</p>
+    </section>
 
-  <h2>자주 묻는 질문</h2>
-  <details><summary>LullCam이 아기 영상을 녹화하거나 저장하나요?</summary><p>아니요. LullCam은 영상, 소리, 사진을 녹화하거나 저장하지 않습니다. 모든 것이 실시간이며 기기에 기록되지 않습니다.</p></details>
-  <details><summary>계정이 필요한가요?</summary><p>아니요. LullCam에는 계정이 없습니다. 가족의 기기는 직접 만나 QR 코드를 스캔해 연결합니다.</p></details>
-  <details><summary>집 밖에서도 작동하나요?</summary><p>네, 허용하면 됩니다. 인터넷으로 전송되는 영상과 소리는 종단 간 암호화되며, 연결 서버는 내용을 볼 수 없고 저장하지도 않습니다. 같은 Wi‑Fi에서는 모두 로컬에 머뭅니다.</p></details>
-  <details><summary>무엇이 필요한가요?</summary><p>Apple 기기 두 대. 오래된 iPhone이나 iPad가 아기 방 카메라가 되고, 내 iPhone이 부모 화면이 됩니다. 카메라를 살 필요가 없습니다.</p></details>
-  <details><summary>가격은 얼마인가요?</summary><p>가족에 참여하는 것은 무료입니다. 나만의 가족을 만들려면 LullCam Pro(3일 무료 연간 구독 또는 1회 결제 평생 이용)가 필요합니다. 배우자와 게스트는 무료로 사용합니다.</p></details>
-  <details><summary>휴대폰이 잠겨 있어도 아기가 울면 알려 주나요?</summary><p>네. 울음, 소음, 움직임, 카메라 가림 또는 이동, 배터리, 연결 끊김을 화면이 잠겨 있어도 알려 드립니다.</p></details>
-  <details><summary>의료 기기인가요?</summary><p>아니요. LullCam은 의료 기기가 아니며 성인의 보호를 대신하지 않습니다.</p></details>
-</main>
-<footer>
-  <a href="/privacy/">개인정보 처리방침</a><a href="mailto:rdavila92@gmail.com">문의</a>
-  <p>© 2026 Rodrigo Dávila</p>
-</footer>
+    <section class="block faq">
+      <h2>자주 묻는 질문</h2>
+      <div>
+        <details><summary>LullCam이 아기 영상을 녹화하거나 저장하나요?</summary><p>아니요. LullCam은 영상, 소리, 사진을 녹화하거나 저장하지 않습니다. 모든 것이 실시간이며 기기에 기록되지 않습니다.</p></details>
+        <details><summary>계정이 필요한가요?</summary><p>아니요. LullCam에는 계정이 없습니다. 가족의 기기는 직접 만나 QR 코드를 스캔해 연결합니다.</p></details>
+        <details><summary>집 밖에서도 작동하나요?</summary><p>네, 허용하면 됩니다. 인터넷으로 전송되는 영상과 소리는 종단 간 암호화되며, 연결 서버는 내용을 볼 수 없고 저장하지도 않습니다. 같은 Wi‑Fi에서는 모두 로컬에 머뭅니다.</p></details>
+        <details><summary>무엇이 필요한가요?</summary><p>Apple 기기 두 대. 오래된 iPhone이나 iPad가 아기 방 카메라가 되고, 내 iPhone이 부모 화면이 됩니다. 카메라를 살 필요가 없습니다.</p></details>
+        <details><summary>가격은 얼마인가요?</summary><p>가족에 참여하는 것은 무료입니다. 나만의 가족을 만들려면 LullCam Pro(3일 무료 연간 구독 또는 1회 결제 평생 이용)가 필요합니다. 배우자와 게스트는 무료로 사용합니다.</p></details>
+        <details><summary>휴대폰이 잠겨 있어도 아기가 울면 알려 주나요?</summary><p>네. 울음, 소음, 움직임, 카메라 가림 또는 이동, 배터리, 연결 끊김을 화면이 잠겨 있어도 알려 드립니다.</p></details>
+        <details><summary>의료 기기인가요?</summary><p>아니요. LullCam은 의료 기기가 아니며 성인의 보호를 대신하지 않습니다.</p></details>
+      </div>
+    </section>
+
+    <section class="closing">
+      <ul class="pills"><li>계정 없음</li><li>클라우드 없음</li><li>녹화 없음</li><li>종단 간 암호화</li></ul>
+      <a class="button" href="https://apps.apple.com/app/id6820272090">App Store에서 다운로드</a>
+    </section>
+  </main>
+  <footer>
+    <div><a href="/privacy/">개인정보 처리방침</a><a href="mailto:rdavila92@gmail.com">문의</a></div>
+    <p>© 2026 Rodrigo Dávila</p>
+  </footer>
+</div>
 </body>
 </html>

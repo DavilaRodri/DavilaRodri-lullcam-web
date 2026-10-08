@@ -129,10 +129,11 @@
 </script>
 </head>
 <body>
-<header>
-  <a class="brand" href="/ja/"><img src="/icon.png" alt="">LullCam</a>
-  <details class="langs"><summary>言語: 日本語</summary>
-    <nav>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="/ja/"><img src="/icon.png" alt="">LullCam</a>
+    <details class="langs"><summary>言語: 日本語</summary>
+      <nav>
       <a href="/" hreflang="en" lang="en">English</a>
       <a href="/es/" hreflang="es" lang="es">Español</a>
       <a href="/de/" hreflang="de" lang="de">Deutsch</a>
@@ -143,60 +144,80 @@
       <a href="/ja/" hreflang="ja" lang="ja" aria-current="page">日本語</a>
       <a href="/ko/" hreflang="ko" lang="ko">한국어</a>
       <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    </nav>
-  </details>
-</header>
-<main>
-  <section class="hero">
-    <img class="icon" src="/icon.png" alt="LullCam のアイコン">
-    <h1>ポケットの中の、<br>プライベートなベビーモニター</h1>
-    <p class="lead">LullCam は iPhone や iPad を赤ちゃんの部屋のカメラにします。あなたはいつも通りスマートフォンを使えて、必要なときだけお知らせします。</p>
-    <ul class="tags"><li>アカウント不要</li><li>クラウドなし</li><li>録画なし</li><li>エンドツーエンド暗号化</li></ul>
-    <a class="button" href="https://apps.apple.com/app/id6820272090">App Store でダウンロード</a>
-  </section>
-  <div class="shots">
-    <img src="/ja/01-onboarding.jpg" alt="ポケットの中の、 プライベートなベビーモニター" width="414" height="900" loading="lazy">
-    <img src="/ja/03-avisos.jpg" alt="泣き声のお知らせ" width="414" height="900" loading="lazy">
-    <img src="/ja/04-inicio.jpg" alt="家族みんなで" width="414" height="900" loading="lazy">
-  </div>
+      </nav>
+    </details>
+  </header>
+  <main>
+    <section class="hero">
+      <div>
+        <h1>ポケットの中の、<em>プライベートなベビーモニター</em></h1>
+        <p class="lead">LullCam は iPhone や iPad を赤ちゃんの部屋のカメラにします。あなたはいつも通りスマートフォンを使えて、必要なときだけお知らせします。</p>
+        <div class="ctas">
+          <a class="button" href="https://apps.apple.com/app/id6820272090">App Store でダウンロード</a>
+          <a class="link" href="#price">料金</a>
+        </div>
+        <ul class="promises"><li>アカウント不要</li><li>クラウドなし</li><li>録画なし</li><li>エンドツーエンド暗号化</li></ul>
+      </div>
+      <div class="scene" aria-hidden="true">
+        <div class="stars"><i style="top:8%;left:12%;animation-delay:0s"></i><i style="top:22%;left:30%;animation-delay:1.2s"></i><i style="top:12%;left:58%;animation-delay:2.1s"></i><i style="top:40%;left:6%;animation-delay:0.6s"></i><i style="top:70%;left:14%;animation-delay:3s"></i><i style="top:62%;left:88%;animation-delay:1.8s"></i><i style="top:86%;left:70%;animation-delay:2.6s"></i><i style="top:34%;left:94%;animation-delay:0.3s"></i></div>
+        <div class="moon"></div>
+        <div class="phone"><img src="/ja/04-inicio.jpg" alt="" width="414" height="900"></div>
+      </div>
+    </section>
 
-  <h2>夜に必要なものすべて</h2>
-  <div class="grid">
-    <div class="card"><h3>ライブの映像と音声</h3><p>複数のカメラを同時に。ズームと暗い場所での画質補正。</p></div>
-    <div class="card"><h3>泣き声のお知らせ</h3><p>物音、動き、カメラのふさがり・移動、バッテリー、接続もお知らせ。画面ロック中も届きます。</p></div>
-    <div class="card"><h3>iPhone はそのまま使える</h3><p>ピクチャ・イン・ピクチャとバックグラウンドオーディオ。</p></div>
-    <div class="card"><h3>話しかけと子守唄</h3><p>赤ちゃんに話しかけ、子守唄やホワイトノイズをタイマー付きで。</p></div>
-    <div class="card"><h3>ナイトライト</h3><p>カメラ側の画面が、部屋のやさしい明かりになります。</p></div>
-    <div class="card"><h3>家族みんなで</h3><p>パートナーやゲストは無料で使えます。</p></div>
-  </div>
+    <section class="block">
+      <h2>夜に必要なものすべて</h2>
+      <div class="bento">
+      <div class="tile t-video"><div><h3>ライブの映像と音声</h3><p>複数のカメラを同時に。ズームと暗い場所での画質補正。</p></div><div class="shot"><img src="/ja/01-onboarding.jpg" alt="ライブの映像と音声" width="414" height="900" loading="lazy"></div></div>
+      <div class="tile t-alert"><div><h3>泣き声のお知らせ</h3><p>物音、動き、カメラのふさがり・移動、バッテリー、接続もお知らせ。画面ロック中も届きます。</p></div></div>
+      <div class="tile t-pip"><div><h3>iPhone はそのまま使える</h3><p>ピクチャ・イン・ピクチャとバックグラウンドオーディオ。</p></div></div>
+      <div class="tile t-talk"><div><h3>話しかけと子守唄</h3><p>赤ちゃんに話しかけ、子守唄やホワイトノイズをタイマー付きで。</p></div></div>
+      <div class="tile t-light"><div><h3>ナイトライト</h3><p>カメラ側の画面が、部屋のやさしい明かりになります。</p></div></div>
+      <div class="tile t-family"><div><h3>家族みんなで</h3><p>パートナーやゲストは無料で使えます。</p></div></div>
+      </div>
+    </section>
 
-  <h2>本当にプライベート</h2>
-  <div class="grid">
-    <div class="card"><h3>家ではすべてローカル</h3><p>同じ Wi‑Fi では、映像はデバイス間で直接やりとりされ、家の外に出ません。</p></div>
-    <div class="card"><h3>外出先でも暗号化</h3><p>インターネット経由ではエンドツーエンドで暗号化。サーバーは中身を見られず、保存もしません。</p></div>
-    <div class="card"><h3>データ収集なし</h3><p>アカウント、分析、広告、トラッキングなし。App Store の表示は「データの収集なし」。</p></div>
-  </div>
+    <section class="block privacy">
+      <h2>本当にプライベート</h2>
+      <div class="rows">
+        <div class="row"><h3>家ではすべてローカル</h3><p>同じ Wi‑Fi では、映像はデバイス間で直接やりとりされ、家の外に出ません。</p></div>
+        <div class="row"><h3>外出先でも暗号化</h3><p>インターネット経由ではエンドツーエンドで暗号化。サーバーは中身を見られず、保存もしません。</p></div>
+        <div class="row"><h3>データ収集なし</h3><p>アカウント、分析、広告、トラッキングなし。App Store の表示は「データの収集なし」。</p></div>
+      </div>
+    </section>
 
-  <h2>料金</h2>
-  <table>
-    <tr><th>ファミリーに参加</th><td>無料</td></tr>
-    <tr><th>LullCam Pro 年額</th><td>3日間無料、その後は App Store の年額料金</td></tr>
-    <tr><th>LullCam Pro 買い切り</th><td>1回の支払い</td></tr>
-  </table>
-  <p>Apple のファミリー共有に対応。お住まいの国の料金は App Store に表示されます。お手持ちの iPhone や iPad を使うので、カメラを買う必要はありません。</p>
+    <section class="block" id="price">
+      <h2>料金</h2>
+      <div class="plans">
+      <div class="plan"><h3>ファミリーに参加</h3><p class="value">無料</p></div>
+      <div class="plan featured"><h3>LullCam Pro 年額</h3><p class="value">3日間無料、その後は App Store の年額料金</p></div>
+      <div class="plan"><h3>LullCam Pro 買い切り</h3><p class="value">1回の支払い</p></div>
+      </div>
+      <p class="note">Apple のファミリー共有に対応。お住まいの国の料金は App Store に表示されます。お手持ちの iPhone や iPad を使うので、カメラを買う必要はありません。</p>
+    </section>
 
-  <h2>よくある質問</h2>
-  <details><summary>LullCam は赤ちゃんの映像を録画・保存しますか？</summary><p>いいえ。LullCam は映像、音声、写真を録画も保存もしません。すべてライブで、デバイスに書き込まれることはありません。</p></details>
-  <details><summary>アカウントは必要ですか？</summary><p>いいえ。LullCam にアカウントはありません。家族のデバイスは、その場で QR コードを読み取ってペアリングします。</p></details>
-  <details><summary>外出先でも使えますか？</summary><p>はい、許可すれば使えます。インターネット経由の映像と音声はエンドツーエンドで暗号化され、接続サーバーは中身を見られず保存もしません。同じ Wi‑Fi ではすべてローカルです。</p></details>
-  <details><summary>何が必要ですか？</summary><p>Apple デバイスが2台。古い iPhone や iPad を子ども部屋のカメラに、あなたの iPhone を親の画面にします。カメラを買う必要はありません。</p></details>
-  <details><summary>料金はいくらですか？</summary><p>ファミリーへの参加は無料。自分のファミリーを作るには LullCam Pro（3日間無料の年額プラン、または買い切り）が必要です。パートナーやゲストは無料で使えます。</p></details>
-  <details><summary>スマートフォンがロック中でも、赤ちゃんが泣いたら知らせてくれますか？</summary><p>はい。泣き声、物音、動き、カメラのふさがり・移動、バッテリー、接続切れを、画面ロック中でもお知らせします。</p></details>
-  <details><summary>医療機器ですか？</summary><p>いいえ。LullCam は医療機器ではなく、大人による見守りの代わりにはなりません。</p></details>
-</main>
-<footer>
-  <a href="/privacy/">プライバシーポリシー</a><a href="mailto:rdavila92@gmail.com">お問い合わせ</a>
-  <p>© 2026 Rodrigo Dávila</p>
-</footer>
+    <section class="block faq">
+      <h2>よくある質問</h2>
+      <div>
+        <details><summary>LullCam は赤ちゃんの映像を録画・保存しますか？</summary><p>いいえ。LullCam は映像、音声、写真を録画も保存もしません。すべてライブで、デバイスに書き込まれることはありません。</p></details>
+        <details><summary>アカウントは必要ですか？</summary><p>いいえ。LullCam にアカウントはありません。家族のデバイスは、その場で QR コードを読み取ってペアリングします。</p></details>
+        <details><summary>外出先でも使えますか？</summary><p>はい、許可すれば使えます。インターネット経由の映像と音声はエンドツーエンドで暗号化され、接続サーバーは中身を見られず保存もしません。同じ Wi‑Fi ではすべてローカルです。</p></details>
+        <details><summary>何が必要ですか？</summary><p>Apple デバイスが2台。古い iPhone や iPad を子ども部屋のカメラに、あなたの iPhone を親の画面にします。カメラを買う必要はありません。</p></details>
+        <details><summary>料金はいくらですか？</summary><p>ファミリーへの参加は無料。自分のファミリーを作るには LullCam Pro（3日間無料の年額プラン、または買い切り）が必要です。パートナーやゲストは無料で使えます。</p></details>
+        <details><summary>スマートフォンがロック中でも、赤ちゃんが泣いたら知らせてくれますか？</summary><p>はい。泣き声、物音、動き、カメラのふさがり・移動、バッテリー、接続切れを、画面ロック中でもお知らせします。</p></details>
+        <details><summary>医療機器ですか？</summary><p>いいえ。LullCam は医療機器ではなく、大人による見守りの代わりにはなりません。</p></details>
+      </div>
+    </section>
+
+    <section class="closing">
+      <ul class="pills"><li>アカウント不要</li><li>クラウドなし</li><li>録画なし</li><li>エンドツーエンド暗号化</li></ul>
+      <a class="button" href="https://apps.apple.com/app/id6820272090">App Store でダウンロード</a>
+    </section>
+  </main>
+  <footer>
+    <div><a href="/privacy/">プライバシーポリシー</a><a href="mailto:rdavila92@gmail.com">お問い合わせ</a></div>
+    <p>© 2026 Rodrigo Dávila</p>
+  </footer>
+</div>
 </body>
 </html>

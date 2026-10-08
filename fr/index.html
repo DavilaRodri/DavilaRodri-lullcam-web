@@ -149,10 +149,11 @@
 </script>
 </head>
 <body>
-<header>
-  <a class="brand" href="/fr/"><img src="/icon.png" alt="">LullCam</a>
-  <details class="langs"><summary>Langue: Français</summary>
-    <nav>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="/fr/"><img src="/icon.png" alt="">LullCam</a>
+    <details class="langs"><summary>Langue: Français</summary>
+      <nav>
       <a href="/" hreflang="en" lang="en">English</a>
       <a href="/es/" hreflang="es" lang="es">Español</a>
       <a href="/de/" hreflang="de" lang="de">Deutsch</a>
@@ -163,60 +164,80 @@
       <a href="/ja/" hreflang="ja" lang="ja">日本語</a>
       <a href="/ko/" hreflang="ko" lang="ko">한국어</a>
       <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    </nav>
-  </details>
-</header>
-<main>
-  <section class="hero">
-    <img class="icon" src="/icon.png" alt="Icône de LullCam">
-    <h1>Le babyphone privé<br>déjà dans votre poche</h1>
-    <p class="lead">LullCam transforme un iPhone ou un iPad en caméra de la chambre de bébé, pendant que vous continuez à utiliser votre téléphone normalement. Il vous prévient quand c&#x27;est important.</p>
-    <ul class="tags"><li>Sans compte</li><li>Sans cloud</li><li>Sans enregistrement</li><li>Chiffré de bout en bout</li></ul>
-    <a class="button" href="https://apps.apple.com/app/id6820272090">Télécharger dans l&#x27;App Store</a>
-  </section>
-  <div class="shots">
-    <img src="/fr/01-onboarding.jpg" alt="Le babyphone privé déjà dans votre poche" width="414" height="900" loading="lazy">
-    <img src="/fr/03-avisos.jpg" alt="Alertes de pleurs" width="414" height="900" loading="lazy">
-    <img src="/fr/04-inicio.jpg" alt="Pour toute la famille" width="414" height="900" loading="lazy">
-  </div>
+      </nav>
+    </details>
+  </header>
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Le babyphone privé <em>déjà dans votre poche</em></h1>
+        <p class="lead">LullCam transforme un iPhone ou un iPad en caméra de la chambre de bébé, pendant que vous continuez à utiliser votre téléphone normalement. Il vous prévient quand c&#x27;est important.</p>
+        <div class="ctas">
+          <a class="button" href="https://apps.apple.com/app/id6820272090">Télécharger dans l&#x27;App Store</a>
+          <a class="link" href="#price">Prix</a>
+        </div>
+        <ul class="promises"><li>Sans compte</li><li>Sans cloud</li><li>Sans enregistrement</li><li>Chiffré de bout en bout</li></ul>
+      </div>
+      <div class="scene" aria-hidden="true">
+        <div class="stars"><i style="top:8%;left:12%;animation-delay:0s"></i><i style="top:22%;left:30%;animation-delay:1.2s"></i><i style="top:12%;left:58%;animation-delay:2.1s"></i><i style="top:40%;left:6%;animation-delay:0.6s"></i><i style="top:70%;left:14%;animation-delay:3s"></i><i style="top:62%;left:88%;animation-delay:1.8s"></i><i style="top:86%;left:70%;animation-delay:2.6s"></i><i style="top:34%;left:94%;animation-delay:0.3s"></i></div>
+        <div class="moon"></div>
+        <div class="phone"><img src="/fr/04-inicio.jpg" alt="" width="414" height="900"></div>
+      </div>
+    </section>
 
-  <h2>Tout ce qu&#x27;il vous faut la nuit</h2>
-  <div class="grid">
-    <div class="card"><h3>Vidéo et son en direct</h3><p>Plusieurs caméras à la fois, zoom et amélioration de l&#x27;image en faible luminosité.</p></div>
-    <div class="card"><h3>Alertes de pleurs</h3><p>Mais aussi bruit, mouvement, caméra masquée ou déplacée, batterie et connexion, même écran verrouillé.</p></div>
-    <div class="card"><h3>Gardez votre iPhone</h3><p>Image dans l&#x27;image et audio en arrière-plan.</p></div>
-    <div class="card"><h3>Parler et berceuses</h3><p>Parlez à votre bébé, lancez des berceuses et du bruit blanc avec minuteur.</p></div>
-    <div class="card"><h3>Veilleuse</h3><p>L&#x27;écran de la caméra sert de lumière douce dans la chambre.</p></div>
-    <div class="card"><h3>Pour toute la famille</h3><p>Votre partenaire et vos invités l&#x27;utilisent gratuitement.</p></div>
-  </div>
+    <section class="block">
+      <h2>Tout ce qu&#x27;il vous faut la nuit</h2>
+      <div class="bento">
+      <div class="tile t-video"><div><h3>Vidéo et son en direct</h3><p>Plusieurs caméras à la fois, zoom et amélioration de l&#x27;image en faible luminosité.</p></div><div class="shot"><img src="/fr/01-onboarding.jpg" alt="Vidéo et son en direct" width="414" height="900" loading="lazy"></div></div>
+      <div class="tile t-alert"><div><h3>Alertes de pleurs</h3><p>Mais aussi bruit, mouvement, caméra masquée ou déplacée, batterie et connexion, même écran verrouillé.</p></div></div>
+      <div class="tile t-pip"><div><h3>Gardez votre iPhone</h3><p>Image dans l&#x27;image et audio en arrière-plan.</p></div></div>
+      <div class="tile t-talk"><div><h3>Parler et berceuses</h3><p>Parlez à votre bébé, lancez des berceuses et du bruit blanc avec minuteur.</p></div></div>
+      <div class="tile t-light"><div><h3>Veilleuse</h3><p>L&#x27;écran de la caméra sert de lumière douce dans la chambre.</p></div></div>
+      <div class="tile t-family"><div><h3>Pour toute la famille</h3><p>Votre partenaire et vos invités l&#x27;utilisent gratuitement.</p></div></div>
+      </div>
+    </section>
 
-  <h2>Vraiment privé</h2>
-  <div class="grid">
-    <div class="card"><h3>À la maison, tout en local</h3><p>Sur le même Wi‑Fi, la vidéo va directement d&#x27;un appareil à l&#x27;autre et ne quitte jamais votre maison.</p></div>
-    <div class="card"><h3>À l&#x27;extérieur, chiffré</h3><p>Par Internet, tout est chiffré de bout en bout. Le serveur ne peut rien voir et ne stocke rien.</p></div>
-    <div class="card"><h3>Aucune donnée</h3><p>Ni compte, ni statistiques, ni publicité, ni pistage. « Aucune donnée collectée » sur l&#x27;App Store.</p></div>
-  </div>
+    <section class="block privacy">
+      <h2>Vraiment privé</h2>
+      <div class="rows">
+        <div class="row"><h3>À la maison, tout en local</h3><p>Sur le même Wi‑Fi, la vidéo va directement d&#x27;un appareil à l&#x27;autre et ne quitte jamais votre maison.</p></div>
+        <div class="row"><h3>À l&#x27;extérieur, chiffré</h3><p>Par Internet, tout est chiffré de bout en bout. Le serveur ne peut rien voir et ne stocke rien.</p></div>
+        <div class="row"><h3>Aucune donnée</h3><p>Ni compte, ni statistiques, ni publicité, ni pistage. « Aucune donnée collectée » sur l&#x27;App Store.</p></div>
+      </div>
+    </section>
 
-  <h2>Prix</h2>
-  <table>
-    <tr><th>Rejoindre une famille</th><td>Gratuit</td></tr>
-    <tr><th>LullCam Pro annuel</th><td>19,99 €/an, 3 jours gratuits</td></tr>
-    <tr><th>LullCam Pro à vie</th><td>49,99 €, paiement unique</td></tr>
-  </table>
-  <p>Compatible avec le Partage familial d&#x27;Apple. Une caméra babyphone Wi‑Fi coûte entre 90 et 230 € ; LullCam utilise un iPhone ou un iPad que vous avez déjà.</p>
+    <section class="block" id="price">
+      <h2>Prix</h2>
+      <div class="plans">
+      <div class="plan"><h3>Rejoindre une famille</h3><p class="value">Gratuit</p></div>
+      <div class="plan featured"><h3>LullCam Pro annuel</h3><p class="value">19,99 €/an, 3 jours gratuits</p></div>
+      <div class="plan"><h3>LullCam Pro à vie</h3><p class="value">49,99 €, paiement unique</p></div>
+      </div>
+      <p class="note">Compatible avec le Partage familial d&#x27;Apple. Une caméra babyphone Wi‑Fi coûte entre 90 et 230 € ; LullCam utilise un iPhone ou un iPad que vous avez déjà.</p>
+    </section>
 
-  <h2>Questions fréquentes</h2>
-  <details><summary>LullCam enregistre-t-il ou conserve-t-il des vidéos de mon bébé ?</summary><p>Non. LullCam n&#x27;enregistre ni ne conserve aucune vidéo, aucun son ni aucune photo. Tout est en direct et rien n&#x27;est écrit sur l&#x27;appareil.</p></details>
-  <details><summary>Faut-il créer un compte ?</summary><p>Non. LullCam n&#x27;a pas de compte. Les appareils de la famille s&#x27;associent en scannant un code QR en personne.</p></details>
-  <details><summary>Est-ce que ça fonctionne hors de la maison ?</summary><p>Oui, si vous l&#x27;autorisez. Par Internet, la vidéo et le son sont chiffrés de bout en bout ; le serveur de connexion ne peut pas les voir et ne les stocke pas. Sur le même Wi‑Fi, tout reste en local.</p></details>
-  <details><summary>De quoi ai-je besoin ?</summary><p>De deux appareils Apple : un ancien iPhone ou iPad sert de caméra dans la chambre et votre iPhone sert d&#x27;écran parent. Pas de caméra à acheter.</p></details>
-  <details><summary>Combien ça coûte ?</summary><p>Le téléchargement est gratuit pour rejoindre une famille. Pour créer votre famille, il vous faut LullCam Pro : 19,99 € par an avec 3 jours gratuits, ou 49,99 € à vie. Votre partenaire et vos invités l&#x27;utilisent gratuitement.</p></details>
-  <details><summary>Suis-je prévenu si mon bébé pleure quand mon téléphone est verrouillé ?</summary><p>Oui. LullCam vous prévient en cas de pleurs, de bruit, de mouvement, de caméra masquée ou déplacée, de batterie et de perte de connexion, même écran verrouillé.</p></details>
-  <details><summary>Est-ce un dispositif médical ?</summary><p>Non. LullCam n&#x27;est pas un dispositif médical et ne remplace pas la surveillance d&#x27;un adulte.</p></details>
-</main>
-<footer>
-  <a href="/privacy/">Politique de confidentialité</a><a href="mailto:rdavila92@gmail.com">Contact</a>
-  <p>© 2026 Rodrigo Dávila</p>
-</footer>
+    <section class="block faq">
+      <h2>Questions fréquentes</h2>
+      <div>
+        <details><summary>LullCam enregistre-t-il ou conserve-t-il des vidéos de mon bébé ?</summary><p>Non. LullCam n&#x27;enregistre ni ne conserve aucune vidéo, aucun son ni aucune photo. Tout est en direct et rien n&#x27;est écrit sur l&#x27;appareil.</p></details>
+        <details><summary>Faut-il créer un compte ?</summary><p>Non. LullCam n&#x27;a pas de compte. Les appareils de la famille s&#x27;associent en scannant un code QR en personne.</p></details>
+        <details><summary>Est-ce que ça fonctionne hors de la maison ?</summary><p>Oui, si vous l&#x27;autorisez. Par Internet, la vidéo et le son sont chiffrés de bout en bout ; le serveur de connexion ne peut pas les voir et ne les stocke pas. Sur le même Wi‑Fi, tout reste en local.</p></details>
+        <details><summary>De quoi ai-je besoin ?</summary><p>De deux appareils Apple : un ancien iPhone ou iPad sert de caméra dans la chambre et votre iPhone sert d&#x27;écran parent. Pas de caméra à acheter.</p></details>
+        <details><summary>Combien ça coûte ?</summary><p>Le téléchargement est gratuit pour rejoindre une famille. Pour créer votre famille, il vous faut LullCam Pro : 19,99 € par an avec 3 jours gratuits, ou 49,99 € à vie. Votre partenaire et vos invités l&#x27;utilisent gratuitement.</p></details>
+        <details><summary>Suis-je prévenu si mon bébé pleure quand mon téléphone est verrouillé ?</summary><p>Oui. LullCam vous prévient en cas de pleurs, de bruit, de mouvement, de caméra masquée ou déplacée, de batterie et de perte de connexion, même écran verrouillé.</p></details>
+        <details><summary>Est-ce un dispositif médical ?</summary><p>Non. LullCam n&#x27;est pas un dispositif médical et ne remplace pas la surveillance d&#x27;un adulte.</p></details>
+      </div>
+    </section>
+
+    <section class="closing">
+      <ul class="pills"><li>Sans compte</li><li>Sans cloud</li><li>Sans enregistrement</li><li>Chiffré de bout en bout</li></ul>
+      <a class="button" href="https://apps.apple.com/app/id6820272090">Télécharger dans l&#x27;App Store</a>
+    </section>
+  </main>
+  <footer>
+    <div><a href="/privacy/">Politique de confidentialité</a><a href="mailto:rdavila92@gmail.com">Contact</a></div>
+    <p>© 2026 Rodrigo Dávila</p>
+  </footer>
+</div>
 </body>
 </html>
